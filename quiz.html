@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Quiz</title>
+	<link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+	<div id="quiz">
+		<h1>Quiz</h1>
+		<form id="quiz-form">
+			<div class="question">
+				<h2>Question 1</h2>
+				<p>Quel est le langage de programmation utilisé pour les pages web?</p>
+				<label><input type="radio" name="q1" value="a">Java</label>
+				<label><input type="radio" name="q1" value="b">Python</label>
+				<label><input type="radio" name="q1" value="c">JavaScript</label>
+			</div>
+			<div class="question">
+				<h2>Question 2</h2>
+				<p>Quel est le symbole pour la balise de fermeture en HTML?</p>
+				<label><input type="radio" name="q2" value="a">/</label>
+				<label><input type="radio" name="q2" value="b">&lt;/&gt;</label>
+				<label><input type="radio" name="q2" value="c">&lt;/&gt;</label>
+			</div>
+			<div class="question">
+				<h2>Question 3</h2>
+				<p>Quel est l'attribut HTML qui spécifie le titre d'une page web?</p>
+				<label><input type="radio" name="q3" value="a">href</label>
+				<label><input type="radio" name="q3" value="b">src</label>
+				<label><input type="radio" name="q3" value="c">title</label>
+			</div>
+			<button type="submit">Soumettre</button>
+		</form>
+		<div id="results"></div>
+	</div>
+	<script src="quiz.js"></script>
+</body>
+</html>

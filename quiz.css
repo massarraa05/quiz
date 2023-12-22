@@ -1,0 +1,43 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+#quiz {
+	margin: 50px auto;
+	width: 400px;
+	background-color: #eee;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+}
+
+h1 {
+	text-align: center;
+    font-size: 20px;
+}
+
+.question {
+	margin-bottom: 20px;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+button[type="submit"] {
+	display: block;
+	margin: 0 auto;
+}
+
+#results {
+	margin-top: 20px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	display: none;
+}
